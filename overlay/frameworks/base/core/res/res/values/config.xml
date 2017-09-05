@@ -60,7 +60,7 @@
     <integer-array name="config_autoBrightnessKeyboardBacklightValues">
     </integer-array>
 
-    <integer name="config_buttonBrightnessSettingDefault">0</integer>
+    <!--integer name="config_buttonBrightnessSettingDefault">0</integer-->
 
     <!-- Minimum screen brightness allowed by the power manager. -->
     <integer name="config_screenBrightnessDim">10</integer>
@@ -85,7 +85,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">71</integer>
+    <!--integer name="config_deviceHardwareWakeKeys">71</integer-->
 
     <!-- The RadioAccessFamilies supported by the device.
          Empty is viewed as "all".  Only used on devices which
