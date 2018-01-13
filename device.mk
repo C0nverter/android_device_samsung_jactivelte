@@ -19,7 +19,9 @@ $(call inherit-product-if-exists, vendor/samsung/jactivelte/jactivelte-vendor.mk
 $(call inherit-product-if-exists, vendor/samsung/jf-gsm-common/jf-gsm-common-vendor.mk)
 
 ## device overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage
 
 # Enable physical back and menu keys
 PRODUCT_COPY_FILES += \
